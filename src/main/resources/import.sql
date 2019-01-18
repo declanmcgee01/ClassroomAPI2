@@ -1,6 +1,8 @@
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (1, 'John', 'Doe', '1234')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (2, 'Jane', 'Doe', '1235')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (3, 'Jim', 'Taylor', '1236')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (4, 'Umayr', 'Nightmayr', '1237')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (5, 'Matt', 'Trainerman', '1238')
-INSERT INTO ACCOUNT (id, firstname, secondname, accountnumber) VALUES (6, 'Jordan', 'Totalbiscuit', '1239')
+INSERT INTO CLASSROOM (classroomID, trainer) VALUES (1, 'John')
+INSERT INTO CLASSROOM (classroomID, trainer) VALUES (2, 'Matt')
+INSERT INTO CLASSROOM (classroomID, trainer) VALUES (3, 'Jordan')
+INSERT INTO TRAINEE (traineeID, traineeName) VALUES (1, 'Declan')
+INSERT INTO TRAINEE (traineeID, traineeName) VALUES (2, 'Umayr')
+INSERT INTO TRAINEE (traineeID, traineeName) VALUES (3, 'Jacob')
+
+
