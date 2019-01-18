@@ -8,6 +8,6 @@ public interface ClassroomRepository {
 	String createClassroom(String classroom);
 	String deleteClassroom(Long classroomID);
 	String updateClassroom(Long classroomID, String classroom);
-	Classroom findClassroom(Long classroomid);
+	Classroom findClassroom(Long classroomID);
 
 }
