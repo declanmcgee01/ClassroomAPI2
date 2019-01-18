@@ -8,6 +8,6 @@ public interface ClassroomService {
 	
 	String deleteClassroom(Long classroomID);
 	
-	String updateAccount(Long classroomID, String classroom);
+	String updateClassroom(Long classroomID, String classroom);
 
 }
